@@ -3,3 +3,46 @@ body {
   padding: 0;
   background-color: lightblue;
 }
+
+.outerContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84vh;
+  border-top: 8vh solid black;
+  border-bottom: 8vh solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  max-width: 500px;
+  max-height: 350px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#catImg {
+  height: 195px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#btn {
+  height: 30px;
+  width: 150px;
+  margin-right: 15px;
+  align-self: center;
+}
